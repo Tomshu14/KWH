@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GenNext Express - Pengiriman Cepat & Mudah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #007bff;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: #0056b3;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background: #ffc107;
+      color: #333;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e0a800;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h3 {
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+    ul.features {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 40px;
+    }
+    ul.features li {
+      background: #e7f1ff;
+      margin-bottom: 12px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #007bff;
+      padding-left: 15px;
+      margin-bottom: 40px;
+    }
+    ol.steps {
+      padding-left: 20px;
+      margin-bottom: 60px;
+    }
+    ol.steps li {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #ffc107;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GenNext Express</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Layanan</a>
+      <a href="#">Harga</a>
+      <a href="#">Kontak</a>
+      <a href="#">Unduh Aplikasi</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Pengiriman Instan & Same-Day Delivery, Langsung dari Genggamanmu</h2>
+    <p>Layanan ekspedisi modern dengan pelacakan real-time, cepat, aman, dan terjangkau.</p>
+    <a href="#" class="btn">Pesan Sekarang</a>
+  </section>
+
+  <div class="container">
+    <h3>Fitur Utama</h3>
+    <ul class="features">
+      <li>Pengiriman Instan dan Same-Day Delivery</li>
+      <li>Pelacakan Real-Time via Aplikasi</li>
+      <li>Tarif Terjangkau untuk Semua Kebutuhan</li>
+      <li>Layanan Mudah dan Praktis 24/7</li>
+    </ul>
+
+    <h3>Testimoni Pelanggan</h3>
+    <blockquote>
+      "Pengiriman cepat dan aplikasi yang mudah dipakai banget! GenNext Express solusi terbaik buat saya." – Nina
+    </blockquote>
+
+    <h3>Cara Kerja</h3>
+    <ol class="steps">
+      <li>Pesan melalui aplikasi atau website</li>
+      <li>Kurir mengambil paketmu dalam waktu singkat</li>
+      <li>Lacak pengiriman secara real-time</li>
+      <li>Paket sampai dengan aman dan tepat waktu</li>
+    </ol>
+  </div>
+
+  <footer>
+    <p>Kontak: support@gennextexpress.com | Telepon: 021-1234567</p>
+    <p>
+      Ikuti kami: 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">TikTok</a>
+    </p>
+    <p>© 2025 GenNext Express</p>
+  </footer>
+</body>
+</html>
